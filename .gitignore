@@ -1,0 +1,20 @@
+.env
+.venv/
+.DS_Store
+Thumbs.db
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+outputs/*.md
+outputs/*.json
+outputs/*.html
+outputs/*.py
+outputs/*.js
+outputs/*.css
+!outputs/.gitkeep
+
+# Local only — lecture lives on the website, not this repo
+initial.md
+lecture/
